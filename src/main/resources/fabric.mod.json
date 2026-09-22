@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "bosstimer",
+  "version": "${version}",
+  "name": "Boss Timer",
+  "description": "Reads nearby BOSS respawn countdown holograms and keeps a client-side HUD timer.",
+  "authors": ["maja"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "tw.bosstimer.client.BossTimerClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric-api": "*",
+    "minecraft": "~1.20.4",
+    "java": ">=17"
+  }
+}
+
+

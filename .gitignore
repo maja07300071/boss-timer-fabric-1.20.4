@@ -1,0 +1,14 @@
+.gradle/
+.gradle-local/
+.gradle-build/
+build/
+run/
+config/
+logs/
+.idea/
+.vscode/
+*.iml
+*.log
+.DS_Store
+Thumbs.db
+Desktop.ini
